@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Bill</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form_container">
+        <div class="innerform">
+    <div class="header"><h2>Add a Bill</div>
+    <div class="form">
+    <form action="/data/bill" method="post">
+        <div class="bilcolumn">
+        <label for="bill_number">Bill Number</label>
+        
+        <input type="text" id="bill_number" name="bill_number" placeholder="Enter bill number" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="customer_id">Customer_ID</label>
+        
+        <input type="text" id="customer_id" name="customer_id"  placeholder="Enter Customer Id" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="bill_date">BillDate</label>
+        
+        <input type="text" id="bill_date" name="bill_date" placeholder="Enter bill date in YYYY-MM-DD format" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="amount">Amount</label>
+        
+        <input type="text" id="amount" name="amount"  placeholder="Enter Amount" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="status">Status</label>
+        
+        <input type="text" id="status" name="status"  placeholder="Enter Status as due or Completed" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="payment_due_date">Payment due date</label>
+        
+        <input type="text" id="payment_due_date" name="payment_due_date"  placeholder="Enter the due date for payment" required>
+    </div>
+    <div class="bilcolumn"><label for="payment_method">Payment method</label>
+        
+        <input type="text" id="payment_method" name="payment_method" placeholder="Enter online or cash" ></div>
+        <div class="submitclass">
+            <input type="submit">
+        </div>
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>

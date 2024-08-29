@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="top-nav">
+        <b>Bills/Payments</b>
+    </div>
+
+    <div id="mainContent">
+        <div class="icon-bar">
+            <a href="/form"><span class="icon"><img class="web" src="add.png">Add Bill</span></a>
+            <a href="/history"><span class="icon"><img class="web" src="his.png"> History</span></a>
+            <a href="/due"><span class="icon"><img class="web" src="due.png"> Due Payments</span></a>
+            <a href="/table"><span class="icon"><img class="web" src="writing.png">Get All Bills</span></a>
+        </div>
+        <div class="bill-number-input">
+            <input type="text" id="billNumber" placeholder="Enter Bill Number">
+            <button onclick="getDetailsByBillNumber()">Get Details</button>
+        </div>
+        <h1>Welcome to the Billing Dashboard</h1>
+        <p>Select an option from the menu to proceed.</p>
+    </div>
+    <div id="payment"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

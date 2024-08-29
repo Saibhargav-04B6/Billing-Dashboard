@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+#maincontainer {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 1000px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead th {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+.editbtns{
+    display:flex;
+}
+
+.editbtns button {
+    background-color: #1a73e8;
+    color: #fff;
+    margin-top: 10px;
+    padding:10px 10px 10px 10px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.editbtns button:hover {
+    background-color: #1667c1;
+}
+
+.form_container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.innerform {
+    margin-top: 20px;
+}
+
+.header h2 {
+    color: #1a73e8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bilcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.bilcolumn label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bilcolumn input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.submitclass{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.submitclass input[type="submit"] {
+    background-color: #1a73e8;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitclass input[type="submit"]:hover {
+    background-color: #1667c1;
+}

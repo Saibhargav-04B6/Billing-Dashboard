@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update bill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form_container">
+        <div class="innerform">
+    <div class="header"><h2>Update Bill</h2></div>
+    <div class="form">
+    <form action="/data/bill/:id" method="put">
+        <div class="bilcolumn">
+        <label for="bill_number">Bill Number</label>
+        <br>
+        <input type="text" id="bill_number" name="bill_number" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="customer_id">Customer_ID</label>
+        <br>
+        <input type="text" id="customer_id" name="customer_id" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="bill_date">BillDate</label>
+        <br>
+        <input type="text" id="bill_date" name="bill_date" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="amount">Amount</label>
+        <br>
+        <input type="text" id="amount" name="amount" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="status">Status</label>
+        <br>
+        <input type="text" id="status" name="status" required>
+    </div>
+    <div class="bilcolumn">
+        <label for="payment_due_date">Payment due date</label>
+        <br>
+        <input type="text" id="payment_due_date" name="payment_due_date" required>
+    </div>
+    <div class="bilcolumn"><label for="payment_method">Payment method</label>
+        <br>
+        <input type="text" id="payment_method" name="payment_method" required></div>
+        <div class="submitclass">
+            <input type="submit" name="Update">
+        </div>
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>
